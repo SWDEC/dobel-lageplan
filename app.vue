@@ -10,7 +10,7 @@
         <h1
           class="text-white font-bold sm:text-3xl text-2xl tracking-wider uppercase"
         >
-          Dobel - Was wo?
+          {{ title }}
         </h1>
         <Location
           v-for="(location, index) in locations"
@@ -30,7 +30,9 @@ import "@/assets/index.scss";
 import Location from "@/components/Location";
 import { locations } from "@/assets/locations.json";
 
+const title = "Dobel-Lageplan"
+
 useHead({
-  title: "Dobel - Was wo?",
+  title
 });
 </script>
