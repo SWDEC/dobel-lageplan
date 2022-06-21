@@ -1,7 +1,19 @@
 <template>
-  <div class="lg:mx-4">
+  <div class="lg:mx-4 lg:my-8 my-6">
+    <div class="mb-4 mx-4 flex justify-between items-center">
+      <a href="https://swdec.de" target="_blank">
+        <img
+          class="lg:max-w-[24rem] sm:max-w-[20rem] max-w-[16rem] flex-shrink flex-1"
+          src="/assets/img/logos/SWD-EC-Logo_Landesverband_RGB-offwhite_lang.png"
+        />
+      </a>
+      <img
+        class="lg:max-w-[12rem] sm:max-w-[9rem] max-w-[6rem] flex-shrink flex-1"
+        src="/assets/img/logos/Logo_DELTA_weiss.png"
+      />
+    </div>
     <div
-      class="bg-gray-800 max-w-screen-xl mx-auto lg:my-8 lg:rounded overflow-hidden lg:shadow-xl flex lg:flex-row flex-col"
+      class="bg-gray-800 max-w-screen-xl mx-auto lg:rounded overflow-hidden shadow-xl flex lg:flex-row flex-col"
     >
       <ModelViewer
         class="flex-1 shrink bg-gradient-to-br from-gray-800 to-slate-700 lg:min-h-[30rem] object-none w-full"
@@ -30,9 +42,9 @@ import "@/assets/index.scss";
 import Location from "@/components/Location";
 import { locations } from "@/assets/locations.json";
 
-const title = "Dobel-Lageplan"
+const title = "Dobel-Lageplan";
 
 useHead({
-  title
+  title,
 });
 </script>
