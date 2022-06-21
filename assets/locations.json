@@ -1,0 +1,44 @@
+{
+    "locations": [
+        {
+            "name": "Halle",
+            "description": "Kreativ-Lobpreis mit Impulsen und Zeugnissen"
+          },
+          {
+            "name": "Bereich zwischen Halle und FSZ",
+            "description": "Zeitraum (Pavillons direkt an der Hallenwand) und Hörendes Gebet (dahinter und unterhalb auf den Stufen)"
+          },
+          {
+            "name": "Schwarzwaldzimmer",
+            "description": "Hörendes Gebet"
+          },
+          {
+            "name": "Unteres Foyer",
+            "description": "Gebetsbereich"
+          },
+          {
+            "name": "Pavillon",
+            "description": "Bibelvorleseraum"
+          },
+          {
+            "name": "Großer Tagungsraum EG (rechts)",
+            "description": "Poetry Workshop"
+          },
+          {
+            "name": "Kleiner Tagungsraum EG (links)",
+            "description": "WorteRaum"
+          },
+          {
+            "name": "Foyer OG",
+            "description": "Bar / Lounge"
+          },
+          {
+            "name": "Großer Tagungsraum OG",
+            "description": "theoTALK"
+          },
+          {
+            "name": "Sportplatz",
+            "description": "victorious"
+          }
+    ]
+}
