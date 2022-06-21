@@ -49,6 +49,7 @@ onMounted(() => {
     );
     // Attach the camera to the canvas
     camera.attachControl(canvas.value, false);
+    camera.panningSensibility = 30;
     // Create a basic light, aiming 0, 1, 0 - meaning, to the sky
     var light = new HemisphericLight("light1", new Vector3(0, 1, 0), scene);
     // ambient occlusion
